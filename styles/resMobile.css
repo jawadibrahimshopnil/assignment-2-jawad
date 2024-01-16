@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+    /* common css */
+    h1 {
+      font-size: 1.25rem;
+    }
+    section {
+      margin-bottom: 1.5rem;
+      max-width: 20.93rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+    }
+
+    /* navbar section */
+    nav {
+      max-width: 20.9rem;
+      padding: 1.15rem;
+    }
+    nav .nav-items {
+      display: none;
+    }
+    nav .logo-humbarger {
+      display: inline;
+    }
+    nav .logo-container > h1{
+        margin-left: 0.6rem;
+    }
+
+
+
+
+
+  }
+  

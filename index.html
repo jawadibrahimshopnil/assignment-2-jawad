@@ -5,26 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NatureLure Travel</title>
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/resDesktop.css">
+  <link rel="stylesheet" href="styles/resMobile.css">
 </head>
 <body>
   <!-- navber section -->
   <nav>
     <div class="logo-container">
       <img src="images/logo.png">
-      <h1>Nature<span claas="primary-color">Lure</span></h1>
+      <h1>Nature<span style="color: #FF5400;">Lure</span></h1>
     </div>
     <div class="nav-items">
-      <a>Home</a>
+      <a class="primary-color">Home</a>
       <a>Packages</a>
       <a>Testimonial</a>
       <a>Blog</a>
       <a>Contact</a>
     </div>
+    <div class="logo-humbarger">
+      <img src="images/logo/humburger.png" alt="">
+    </div>
   </nav>
 
   <!-- header section -->
-  <header class="explore-header">
+  <header style="display: none;" class="explore-header">
     <h1>Explore Your Travel</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro ut dolor sit, distinctio voluptas
       voluptatem culpa praesentium!</p>
@@ -45,7 +48,7 @@
     </form>
   </header>
 
-  <main>
+  <main style="display: none;">
     <!-- Popular tour section -->
     <section class="popular-tour">
       <div class="popular-tour-content">
@@ -163,7 +166,7 @@
       </div>
     </section>
   </main>
-  <footer>
+  <footer style="display: none;">
     <div class="logo-container">
       <img src="image/">
       <h1>Nature<span claas="primary-color">Lure</span></h1>
@@ -175,6 +178,7 @@
     <hr>
     <p>2017, All Right Reserved.</p>
   </footer>
+
 </body>
 
 </html>
