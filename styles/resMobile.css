@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   /* common css */
-  h1 {
+  h1, h2 {
     font-size: 1.25rem;
   }
   section {
@@ -87,7 +87,21 @@
     margin-bottom: 1rem;
   }
 
+  /* extra section testimonials */
+  .testimonial-section{
+    padding: 0rem;
+    margin-top: 3rem;
+  }
+  .testimonial-container{
+    padding: 0 1.5rem;
+  }
+  .testimonial{
+    padding: 1.5rem 1rem;
+  }
+
   /* Deals and Discounts section */
+
+
 
   /* A Simple perfect place to get lost */
   .perfect-place {
