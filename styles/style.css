@@ -233,6 +233,14 @@ nav .logo-humbarger {
   max-width: 35.8rem;
   border-radius: 1rem;
 }
+.whyUs-card-container .whyUs-cards img {
+  margin-bottom: 2rem;
+}
+.whyUs-card-container .whyUs-cards h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
 .whyUs-card-container .whyUs-cards:nth-child(1) {
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);

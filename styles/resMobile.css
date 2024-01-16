@@ -81,4 +81,9 @@
   .destination-gallary .dist-item img {
     width: 100%;
   }
+
+  /* why choose us */
+  .whyUs-card-container .whyUs-cards img {
+    margin-bottom: 1rem;
+  }
 }
