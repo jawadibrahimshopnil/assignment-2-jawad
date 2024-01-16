@@ -30,7 +30,10 @@ p {
   color: #ff5400;
 }
 .primary-btn {
+  background-color: #ff5400;
+  color: #fff;
   padding: 0.85rem 2.15rem;
+  border-radius: 0.5rem;
 }
 
 /* navbar section */
@@ -60,3 +63,59 @@ nav .logo-humbarger {
   display: none;
 }
 
+/* header section */
+.explore-header {
+  border-radius: 1rem;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../images/header.png) no-repeat center/cover;
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+  max-width: 73.1rem;
+  min-height: 31.25rem;
+  margin-bottom: 3rem;
+  padding: 11.5rem 6.62rem;
+  text-align: center;
+}
+.explore-header > * {
+  color: #fff;
+}
+.explore-header > p {
+  padding: 0 6.5rem;
+}
+.explore-header > h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+.primary-btn > img {
+  vertical-align: middle;
+}
+.explore-header form {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+.explore-header form,
+.explore-header form > input,
+.explore-header form > select {
+  border: none;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+.explore-header form > input,
+.explore-header form > select {
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: #fff;
+}
+.explore-header form > select {
+  color: rgba(19, 19, 24, 0.5);
+  padding: 1rem 1.5rem;
+}
+.explore-header form > button {
+  border: none;
+}
