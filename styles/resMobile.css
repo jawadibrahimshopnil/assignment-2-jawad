@@ -1,70 +1,84 @@
 @media screen and (max-width: 600px) {
-    /* common css */
-    h1 {
-      font-size: 1.25rem;
-    }
-    section {
-      margin-bottom: 1.5rem;
-      max-width: 20.93rem;
-    }
-    p {
-      margin-bottom: 1rem;
-      font-size: 0.875rem;
-      line-height: 1.5rem;
-    }
-
-    /* navbar section */
-    nav {
-      max-width: 20.9rem;
-      padding: 1.15rem;
-    }
-    nav .nav-items {
-      display: none;
-    }
-    nav .logo-humbarger {
-      display: inline;
-    }
-    nav .logo-container > h1{
-        margin-left: 0.6rem;
-    }
-
-    /* header section */
-    .explore-header{
-        max-width: 20.9rem;
-        padding: 2rem 1rem;
-        margin-bottom: 1.5rem;
-    }
-    .explore-header > h1{
-        font-size: 1.375rem;
-    }
-    .explore-header > p{
-        padding: 0 1rem;
-    }
-    .explore-header form{
-        flex-direction: column;
-    }
-    .explore-header form > select {
-        padding: 1rem 0.9rem;
-      }
-
-    /* Popular tour section */
-    .popular-tour{
-        flex-direction: column;
-    }
-    .popular-tour-content{
-        width: 100%;
-        margin-bottom: 2.3rem;
-    }
-    .popular-tour-content > ul{
-        margin-bottom: 1rem;
-    }
-    .popular-tour-content > ul > li{
-        font-size: 0.875rem;
-        margin-bottom: 0.75rem;
-    }
-    .popular-tour-img > img{
-        width: 100%;
-    }
-
+  /* common css */
+  h1 {
+    font-size: 1.25rem;
   }
-  
+  section {
+    margin-bottom: 1.5rem;
+    max-width: 20.93rem;
+  }
+  p {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  /* navbar section */
+  nav {
+    max-width: 20.9rem;
+    padding: 1.15rem;
+  }
+  nav .nav-items {
+    display: none;
+  }
+  nav .logo-humbarger {
+    display: inline;
+  }
+  nav .logo-container > h1 {
+    margin-left: 0.6rem;
+  }
+
+  /* header section */
+  .explore-header {
+    max-width: 20.9rem;
+    padding: 2rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .explore-header > h1 {
+    font-size: 1.375rem;
+  }
+  .explore-header > p {
+    padding: 0 1rem;
+  }
+  .explore-header form {
+    flex-direction: column;
+  }
+  .explore-header form > select {
+    padding: 1rem 0.9rem;
+  }
+
+  /* Popular tour section */
+  .popular-tour {
+    flex-direction: column;
+  }
+  .popular-tour-content {
+    width: 100%;
+    margin-bottom: 2.3rem;
+  }
+  .popular-tour-content > ul {
+    margin-bottom: 1rem;
+  }
+  .popular-tour-content > ul > li {
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
+  .popular-tour-img > img {
+    width: 100%;
+  }
+
+  /* choose your destination section */
+  .choose-destination > p {
+    padding: 0 0.8rem;
+  }
+  .destination-gallary {
+    display: block;
+  }
+  .destination-gallary .dist-item {
+    display: block;
+    width: 20.9rem;
+    height: 12rem;
+  }
+  .destination-gallary .dist-item img {
+    width: 100%;
+  }
+}
