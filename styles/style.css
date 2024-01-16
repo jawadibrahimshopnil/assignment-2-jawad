@@ -184,7 +184,7 @@ nav .logo-humbarger {
   align-items: center;
 }
 .destination-gallary .dist-item:nth-child(1) {
-  background: url("/images/maldives.png") no-repeat;
+  background: url("../images/maldives.png") no-repeat;
   background-size: cover;
   grid-column: 1 / 7;
   grid-row: 1 / 1;
@@ -264,7 +264,8 @@ nav .logo-humbarger {
   padding: 3.75rem 1rem;
   border-radius: 1rem;
 }
-.testimonial-section > h1, .testimonial > h2{
+.testimonial-section > h1,
+.testimonial > h2 {
   text-align: center;
 }
 .testimonial-container {
@@ -300,6 +301,62 @@ nav .logo-humbarger {
 }
 
 /* Deals and Discounts section */
+.deals-discounts > h1,
+.deals-discounts > p {
+  text-align: center;
+}
+.deals-cards-container {
+  border-radius: 1rem;
+  padding: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.deals-discounts .deals-cards-container:nth-child(3) {
+  background: url("../images/pool1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.deals-discounts .deals-cards-container:nth-child(4) {
+  background: url("../images/pool2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.deals-discounts .deals-cards-container:nth-child(4) .deals-card {
+  margin-left: 0rem;
+}
+.deals-discounts .deals-cards-container:nth-child(5) {
+  background: url("../images/pool1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.deals-cards-container .deals-card {
+  width: 50%;
+  margin-left: auto;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 3.12rem;
+}
+.deals-card .heading-details {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.deals-card .heading-details > p {
+  margin-bottom: 0rem;
+}
+.deals-card .tour-details > p {
+  margin-bottom: 1rem;
+}
+.deals-card .deals-price {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+.deals-card .heading-details p img {
+  vertical-align: middle;
+}
 
 /* A Simple perfect place to get lost */
 .perfect-place {
@@ -388,4 +445,8 @@ footer .social-link {
 footer .social-link img {
   margin: 0 0.6rem;
   vertical-align: middle;
+}
+footer .copyright {
+  font-family: Inter;
+  font-weight: 300;
 }

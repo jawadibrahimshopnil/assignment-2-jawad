@@ -16,7 +16,7 @@
   /* navbar section */
   nav {
     max-width: 20.9rem;
-    padding: 1.15rem;
+    padding: 1.15rem 0rem;
   }
   nav .nav-items {
     display: none;
@@ -24,8 +24,11 @@
   nav .logo-humbarger {
     display: inline;
   }
-  nav .logo-container > h1 {
-    margin-left: 0.6rem;
+  .logo-container > h1 {
+    margin-left: 0.5rem;
+  }
+  .logo-container > img{
+    width: 20%;
   }
 
   /* header section */
@@ -100,9 +103,16 @@
   }
 
   /* Deals and Discounts section */
-
-
-
+  .deals-cards-container{
+    background-position: center center;
+    padding: 1rem;
+  }
+  .deals-cards-container .deals-card{
+    width: 100%;
+    padding: 1.5rem;
+    margin: 11.5rem 0rem 0rem;
+  }
+  
   /* A Simple perfect place to get lost */
   .perfect-place {
     flex-direction: column;
@@ -118,7 +128,7 @@
     font-size: 0.875rem;
     margin-bottom: 0.75rem;
   }
-  .perfectPlace-photo > img {
+  .perfectPlace-photo > video {
     width: 100%;
   }
 
