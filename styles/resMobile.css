@@ -86,4 +86,25 @@
   .whyUs-card-container .whyUs-cards img {
     margin-bottom: 1rem;
   }
+
+  /* Deals and Discounts section */
+
+  /* A Simple perfect place to get lost */
+
+  /* Newsletter section */
+  .newsletter{
+    flex-direction: column;
+  }
+  .newsletter .subscribe-section{
+    padding: 1.5rem;
+    width: 100%;
+  }
+  .newsletter .news-img{
+    width: 100%;
+    height: 18.7rem;
+  }
+  .newsletter .news-img > img{
+    position: absolute;
+    width: 40%;
+  }
 }

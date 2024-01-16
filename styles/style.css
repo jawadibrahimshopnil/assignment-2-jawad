@@ -15,6 +15,11 @@ h1 {
   font-weight: 800;
   margin-bottom: 1.5rem;
 }
+h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
 section {
   margin: 0 auto;
   margin-bottom: 6.25rem;
@@ -236,11 +241,6 @@ nav .logo-humbarger {
 .whyUs-card-container .whyUs-cards img {
   margin-bottom: 2rem;
 }
-.whyUs-card-container .whyUs-cards h2 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 1rem;
-}
 .whyUs-card-container .whyUs-cards:nth-child(1) {
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
@@ -252,4 +252,56 @@ nav .logo-humbarger {
 .whyUs-card-container .whyUs-cards:nth-child(3) {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
+}
+
+/* Deals and Discounts section */
+
+/* A Simple perfect place to get lost */
+
+/* Newsletter section */
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter .subscribe-section {
+  border-radius: 1rem;
+  border: 1px solid #ff5400;
+  padding: 2.5rem;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+.newsletter .subscribe-section p{
+    margin-bottom: 1.5rem;
+}
+.newsletter .subscribe-section > hr {
+  color: rgba(19, 19, 24, 0.1);
+  margin-bottom: 1.5rem;
+}
+.newsletter .subscribe-section form {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter .subscribe-section form input {
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  margin-bottom: 1rem;
+}
+.newsletter .subscribe-section form button{
+    margin-top: 0.5rem;
+}
+.newsletter .news-img{
+    background: url("../images/newsletter.png") no-repeat;
+    width: 58%;
+    position: relative;
+    border-radius: 1rem;
+}
+.newsletter .news-img > img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
