@@ -33,6 +33,10 @@ p {
   line-height: 1.625rem;
   margin-bottom: 3rem;
 }
+hr {
+  color: rgba(19, 19, 24, 0.1);
+  margin-bottom: 1.5rem;
+}
 .primary-color {
   color: #ff5400;
 }
@@ -55,14 +59,15 @@ nav {
   justify-content: space-between;
   padding: 3rem 0;
 }
-nav .logo-container {
+.logo-container {
   display: flex;
   align-items: center;
   width: 48%;
 }
-nav .logo-container > h1 {
+.logo-container > h1 {
   margin-left: 1rem;
   color: rgba(0, 130, 41, 0.83);
+  margin-bottom: 0;
 }
 nav .nav-items {
   width: 48%;
@@ -253,10 +258,84 @@ nav .logo-humbarger {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
+/* extra section */
+.testimonial-section {
+  background-color: #f9f9f9;
+  padding: 3.75rem 0;
+  border-radius: 1rem;
+}
+
+.section-heading {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  max-width: 25rem;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  margin: 1.25rem;
+  padding: 1.25rem;
+}
+.testimonial:nth-child(1) {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.testimonial:nth-child(2) {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.testimonial:nth-child(3) {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.testimonial-text {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  color: #888;
+  font-size: 0.875rem;
+  margin-top: 0.625rem;
+}
 
 /* Deals and Discounts section */
 
 /* A Simple perfect place to get lost */
+.perfect-place {
+  display: flex;
+  justify-content: space-between;
+}
+.perfectPlace-text {
+  width: 48%;
+}
+.perfectPlace-text > p {
+  margin-bottom: 1.5rem;
+}
+.perfectPlace-text > ul {
+  padding: 0rem 1.5rem;
+  margin-bottom: 2.3rem;
+}
+.perfectPlace-text > ul > li {
+  margin-bottom: 1rem;
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
 
 /* Newsletter section */
 .newsletter {
@@ -270,11 +349,7 @@ nav .logo-humbarger {
   width: 40%;
   margin-bottom: 1rem;
 }
-.newsletter .subscribe-section p{
-    margin-bottom: 1.5rem;
-}
-.newsletter .subscribe-section > hr {
-  color: rgba(19, 19, 24, 0.1);
+.newsletter .subscribe-section p {
   margin-bottom: 1.5rem;
 }
 .newsletter .subscribe-section form {
@@ -291,17 +366,37 @@ nav .logo-humbarger {
   border: none;
   margin-bottom: 1rem;
 }
-.newsletter .subscribe-section form button{
-    margin-top: 0.5rem;
+.newsletter .subscribe-section form button {
+  margin-top: 0.5rem;
 }
-.newsletter .news-img{
-    background: url("../images/newsletter.png") no-repeat;
-    width: 58%;
-    position: relative;
-    border-radius: 1rem;
+.newsletter .news-img {
+  background: url("../images/newsletter.png") no-repeat;
+  width: 58%;
+  position: relative;
+  border-radius: 1rem;
 }
-.newsletter .news-img > img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.newsletter .news-img > img {
+  position: absolute;
+  bottom: 1rem;
+  right: 0.3rem;
+}
+
+/* footer seciton */
+footer {
+  padding: 6.88rem 17.75rem;
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+}
+footer .logo-container {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+footer .social-link {
+  margin-bottom: 2rem;
+}
+footer .social-link img {
+  margin: 0 0.6rem;
 }

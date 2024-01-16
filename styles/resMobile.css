@@ -90,21 +90,43 @@
   /* Deals and Discounts section */
 
   /* A Simple perfect place to get lost */
-
-  /* Newsletter section */
-  .newsletter{
+  .perfect-place {
     flex-direction: column;
   }
-  .newsletter .subscribe-section{
+  .perfectPlace-text {
+    width: 100%;
+    margin-bottom: 2.3rem;
+  }
+  .perfectPlace-text > ul {
+    margin-bottom: 1rem;
+  }
+  .perfectPlace-text > ul > li {
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
+  .perfectPlace-photo > img {
+    width: 100%;
+  }
+
+  /* Newsletter section */
+  .newsletter {
+    flex-direction: column;
+  }
+  .newsletter .subscribe-section {
     padding: 1.5rem;
     width: 100%;
   }
-  .newsletter .news-img{
+  .newsletter .news-img {
     width: 100%;
     height: 18.7rem;
   }
-  .newsletter .news-img > img{
+  .newsletter .news-img > img {
     position: absolute;
     width: 40%;
   }
+
+  /* footer seciton */
+ footer{
+    padding: 2rem 2.75rem;
+ }
 }
