@@ -1,7 +1,9 @@
 @media screen and (max-width: 600px) {
   /* common css */
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
   section {
     margin-bottom: 1.5rem;
@@ -11,6 +13,9 @@
     margin-bottom: 1rem;
     font-size: 0.875rem;
     line-height: 1.5rem;
+  }
+  section > p{
+    padding: 0rem 1rem;
   }
 
   /* navbar section */
@@ -27,7 +32,7 @@
   .logo-container > h1 {
     margin-left: 0.5rem;
   }
-  .logo-container > img{
+  .logo-container > img {
     width: 20%;
   }
 
@@ -70,19 +75,16 @@
   }
 
   /* choose your destination section */
-  .choose-destination > p {
-    padding: 0 0.8rem;
-  }
   .destination-gallary {
+    max-width: 20.9rem;
     display: block;
   }
-  .destination-gallary .dist-item {
-    display: block;
-    width: 20.9rem;
-    height: 12rem;
+  .destination-gallary .desti-item {
+    height: 11rem;
+    margin-bottom: 1rem;
   }
-  .destination-gallary .dist-item img {
-    width: 100%;
+  .destination-gallary .desti-item > p{
+    font-size: 1.25rem;
   }
 
   /* why choose us */
@@ -91,28 +93,29 @@
   }
 
   /* extra section testimonials */
-  .testimonial-section{
+  .testimonial-section {
+    margin-bottom: 0rem;
     padding: 0rem;
     margin-top: 3rem;
   }
-  .testimonial-container{
+  .testimonial-container {
     padding: 0 1.5rem;
   }
-  .testimonial{
+  .testimonial {
     padding: 1.5rem 1rem;
   }
 
   /* Deals and Discounts section */
-  .deals-cards-container{
+  .deals-cards-container {
     background-position: center center;
     padding: 1rem;
   }
-  .deals-cards-container .deals-card{
+  .deals-cards-container .deals-card {
     width: 100%;
     padding: 1.5rem;
     margin: 11.5rem 0rem 0rem;
   }
-  
+
   /* A Simple perfect place to get lost */
   .perfect-place {
     flex-direction: column;
@@ -137,6 +140,7 @@
     flex-direction: column;
   }
   .newsletter .subscribe-section {
+    margin-bottom: 1.5rem;
     padding: 1.5rem;
     width: 100%;
   }
@@ -146,11 +150,11 @@
   }
   .newsletter .news-img > img {
     position: absolute;
-    width: 40%;
+    width: 50%;
   }
 
   /* footer seciton */
- footer{
+  footer {
     padding: 2rem 2.75rem;
- }
+  }
 }
